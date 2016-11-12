@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#header-container {
+	background-image: url("images/books_header_bg.jpg");
+}
+
+#header-nav {
+	padding: 1em 1em 1em 22em;
+}
+
+.topnav {
+	list-style-type: none;
+	float: left;
+}
+
+#site-label a {
+	color: #dbeebf;
+	font-size: 32px;
+	font-family: serif;
+	text-decoration: none;
+	font-weight: 20;
+}
+
+#site-label a span {
+	color: white;
+}
+
+#site-description {
+	color: #44691b;
+	font-size: 14px;
+}
+
+#book-search{
+	margin: 15px 350px 15px 350px;
+	width: 600px;
+	padding: .75em;
+	border: 0 solid;
+	font-size: 16px;
+	color: #44691b;
+	background-color: #dbeebf;
+
+}
+
+#nav-top-bar ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+#nav-top-bar ul li {
+	float: left;
+}
+
+#nav-top-bar ul li a {
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+
+#footer-container {
+	clear: both;
+	background-color: #191919;
+	border: 2px solid red;
+}
+
+#footer-container ul {
+	list-style-type: none;
+}
+
+#footer-left-image {
+	padding: 0 0 0 250px;
+}
+
+.footer-left-float{
+	float: left;
+}
+
+#footer-left-label span {
+	color: #dbeebf;
+}
+
+#footer-left-label {
+	padding: 10px 0 0 0;
+}
+
+#footer-left-label a{
+	text-decoration: none;
+	color: grey;
+}
+
+#footer-copyright-label {
+	color: grey;
+	padding: 0 0 0 800px;
+}
+
+#footer-copyright-label span {
+	border: 1px solid;
+	position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 12px;
+}
+
+#footer-email-link a {
+	display: block;
+	text-decoration: none;
+	color: #dbeebf;
+	padding: 0 0 0 800px;
+}
+
+
+
+
