@@ -36,6 +36,10 @@ body {
 	font-size: 14px;
 }
 
+form {
+	margin: 0 auto;
+}
+
 #book-search{
 	margin: 15px 350px 15px 350px;
 	width: 600px;
@@ -44,7 +48,23 @@ body {
 	font-size: 16px;
 	color: #44691b;
 	background-color: #dbeebf;
+}
 
+#book-search[type=text] {
+    width: 642.5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #dbeebf;
+    background-image: url('images/ic_search_white_18dp_2x.png');
+    background-position: 600px 5px;
+    background-repeat: no-repeat;
+    bac
+}
+
+#nav-top-bar {
+	padding: 0 0 0 150px;
 }
 
 #nav-top-bar ul {
@@ -58,8 +78,10 @@ body {
 
 #nav-top-bar ul li a {
 	display: block;
-	padding: 16px;
+	padding: 5px 16px 16px 16px;
 	text-decoration: none;
+	color: grey;
+	font-size: 16px;
 }
 
 #footer-container {
@@ -73,7 +95,7 @@ body {
 }
 
 #footer-left-image {
-	padding: 0 0 0 250px;
+	padding: 0 0 0 50px;
 }
 
 .footer-left-float{
@@ -95,7 +117,7 @@ body {
 
 #footer-copyright-label {
 	color: grey;
-	padding: 0 0 0 800px;
+	padding: 0 0 0 950px;
 }
 
 #footer-copyright-label span {
@@ -116,7 +138,7 @@ body {
 	display: block;
 	text-decoration: none;
 	color: #dbeebf;
-	padding: 0 0 0 800px;
+	padding: 0 0 0 950px;
 }
 
 
