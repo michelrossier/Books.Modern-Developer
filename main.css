@@ -3,15 +3,16 @@
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Roboto',sans-serif;
 }
 
+/* header */
 #header-container {
 	background-image: url("images/books_header_bg.jpg");
 }
 
 #header-nav {
-	padding: 1em 1em 1em 22em;
+	padding: 30px 350px 15px 370px;
 }
 
 .topnav {
@@ -22,9 +23,9 @@ body {
 #site-label a {
 	color: #dbeebf;
 	font-size: 32px;
-	font-family: serif;
+	font-family: 'Roboto Slab', serif;
 	text-decoration: none;
-	font-weight: 20;
+	font-weight: thin;
 }
 
 #site-label a span {
@@ -36,8 +37,9 @@ body {
 	font-size: 14px;
 }
 
-form {
-	margin: 0 auto;
+#header-footer {
+	clear: both;
+	padding: 15px;
 }
 
 #book-search{
@@ -50,6 +52,7 @@ form {
 	background-color: #dbeebf;
 }
 
+/* add the search image icon */
 #book-search[type=text] {
     width: 642.5px;
     box-sizing: border-box;
@@ -60,9 +63,9 @@ form {
     background-image: url('images/ic_search_white_18dp_2x.png');
     background-position: 600px 5px;
     background-repeat: no-repeat;
-    bac
 }
 
+/* navigation bar */
 #nav-top-bar {
 	padding: 0 0 0 150px;
 }
@@ -84,14 +87,15 @@ form {
 	font-size: 16px;
 }
 
+/* footer */
 #footer-container {
 	clear: both;
 	background-color: #191919;
-	border: 2px solid red;
 }
 
 #footer-container ul {
-	list-style-type: none;
+	list-style-type: none; 	/* remove the bullet points */
+	padding: 40px;
 }
 
 #footer-left-image {
@@ -99,7 +103,7 @@ form {
 }
 
 .footer-left-float{
-	float: left;
+	float: left; 			/* line up footer image and Books label */
 }
 
 #footer-left-label span {
@@ -107,7 +111,7 @@ form {
 }
 
 #footer-left-label {
-	padding: 10px 0 0 0;
+	padding: 10px 0 0 0;	/* align the label to the middle of the footer image */
 }
 
 #footer-left-label a{
@@ -120,10 +124,11 @@ form {
 	padding: 0 0 0 950px;
 }
 
+/* create the copyright symbol in scratch using CSS */
 #footer-copyright-label span {
 	border: 1px solid;
 	position: relative;
-    display: inline-block;
+    display: inline-block; 	/* align the c symbol to the circular border */
     width: 16px;
     height: 16px;
     border-radius: 50%;
@@ -135,10 +140,11 @@ form {
 }
 
 #footer-email-link a {
-	display: block;
+	display: block;			/* align copright text with email as a list */
 	text-decoration: none;
 	color: #dbeebf;
 	padding: 0 0 0 950px;
+	font-family: 
 }
 
 
