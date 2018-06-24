@@ -146,7 +146,7 @@ input[type=search]::-webkit-input-placeholder {
 
 .site-content {
 	//background-color: #f2f2f2;
-	//border: 1px solid green;
+	//border: 3px solid green;
 	//border: 1px solid #f2f2f2;
 	background-color: #eee;
 	border: 1px solid #eee;
@@ -170,39 +170,47 @@ input[type=search]::-webkit-input-placeholder {
 	//height: 400px;
 	height: 390px;
 	vertical-align: bottom;
+	//border: 1px solid brown;
 }
 
-.content-width-75 {
+.content-width-70 {
 	//width: 66%;
 	width: 68%;
 	//border: 1px solid green;
-	padding: 30px 20px 30px 30px;
+	padding: 20px 0 35px 28px;
 	margin: 0;
 }
 
-.content-width-25 {
+.content-width-30 {
 	//width: 24.75%;
 	//width: 24.9%;
 	//width: 28.5%;
-	width: 26.5%;
+	width: 28.75%;
+	//width: 26.5%;
 	//height: 460px;
-	height: 450px;
+	//height: 450px;
+	height: 445px;
+	//height: 432px;
 	//border: 1px solid blue;
-	//margin-left: -1px;
-	margin-left: 4.5px;
+	margin-left: -3px;
+	//margin-left: 4.5px;
+	border-left: 2px solid #eee;
 }
 
 .content-heading {
 	//border: 1px solid;
 	margin: 0;
 	padding: 0;
+	width: 98%;
 }
 
 .content-title {
 	//border: 1px solid purple;
 	margin: 0;
 	font-weight: 400;
-	font-size: 185%;
+	//font-size: 185%;
+	//font-size: 180%;
+	font-size: 175%;
 	font-family: 'Roboto', serif;
 }
 
@@ -213,6 +221,7 @@ input[type=search]::-webkit-input-placeholder {
 
 .content-nav {
 	//border:1px solid orange;
+	width: 98%;
 }
 
 .content-navlist {
@@ -220,7 +229,8 @@ input[type=search]::-webkit-input-placeholder {
 	list-style: none;
 	text-align: left;
 	padding: 0;
-	font-size: 85%;
+	//font-size: 85%;
+	font-size: 80%;
 }
 
 .content-navitem {
@@ -250,7 +260,7 @@ input[type=search]::-webkit-input-placeholder {
 	border-color: #9dc22e;
 	border-radius: 3px;
 	color: #9dc22e;
-	padding: 4px 10px;
+	padding: 4px 9px;
 }
 
 .book-info {
@@ -277,13 +287,19 @@ input[type=search]::-webkit-input-placeholder {
 }
 
 .content-width-60 {
-	width: 58%;
+	//width: 58%;
+	width: 57%;
+	//border: 1px solid red;
 }
 
 .content-width-40 {
-	width: 35.15%;
-	margin-left: 40px;
-	border-left: 1px solid #babac5;
+	//width: 35.15%;
+	width: 36.15%;
+	margin-left: 16px;
+	padding-left: 14px;
+	//border-left: 1px solid #babac5;
+	border-left: 2px solid #eee;
+	//border-right: 2px solid #eee;
 }
 
 .content-desc {
@@ -291,6 +307,7 @@ input[type=search]::-webkit-input-placeholder {
 	line-height: 1.5;
 	color: #76818c;
 	word-break: keep-all;
+	font-size: 98%;
 }
 
 .more-about-book {
@@ -341,9 +358,10 @@ input[type=search]::-webkit-input-placeholder {
 
 .content-footer-item {
 	//border: 1px solid green;
+	border: 1px solid #eee; /* note to self, border is needed to render page properly (ie, remove the horizontal rule) */
 	display: inline-block;
 	padding-top: 22px;
-	padding-bottom: 20px;	
+	padding-bottom: 24px;	
 }
 
 .vendor-price-list {
@@ -534,4 +552,17 @@ input[type=search]::-webkit-input-placeholder {
 
 .keep-right {
 	float: right;
+}
+.load-more {
+	//border: 1px solid red;
+	width: 80%;
+	height: 300px;
+	margin: 1rem auto;
+	text-align: center;
+}
+
+.load-more-books-link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #909089;
 }
