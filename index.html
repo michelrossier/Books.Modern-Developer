@@ -1,45 +1,401 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Books.Modern Developer</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:100,300,400,700" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="./main.css">	
 </head>
 <body>
-<header id="header-container">
-	<nav id="header-nav">
-		<a href="#"><img class="topnav" src="images/books.MD_logo_icon.png"></a>
-		<ul class="topnav">
-			<li id="site-label"><a href="#"><span>Books.</span> Modern Developer</a></li>
-			<li id="site-description">The Largest Resource of Web and Mobile Development and Programming Books</li>
-		</ul>
-	</nav>
-	<footer id="header-footer">
-		<form>
-			<input id="book-search" type="text" name="search" placeholder="Search books by any keyword or title...">
-		</form>
-	</footer>
+<header class="site-header">
+	<div class="site-header-logo">
+		<div class="site-header-logo-item">
+			<a class="site-header-logo-media" href="#!">
+				<img class="site-header-logo-img" width="60" height="60" src="./images/books.MD_logo_icon.png">
+			</a>
+		</div>
+		<div class="site-header-logo-item">
+			<h2 class="site-header-logo-title"><a class="site-header-title-link" href="#!"><span>Books.</span> Modern Developer</a></h2>
+			<p class="site-header-logo-desc">The Largest Resource of Web and Mobile Development and Programming Books</p>
+		</div>		
+	</div>
+	<div class="site-header-form-item">
+		<form class="site-header-searchform">
+			<input class="site-header-searchform-input" type="search" name="search" placeholder="Search books by any keyword or title...">
+			<img class="site-header-searchform-img" width="34" height="34" src="./images/ic_search_white_18dp_2x.png">
+		</form>		
+	</div>
 </header>
-<nav id="nav-top-bar">
-	<ul>
-		<li><a href="#">UI/UX Design</a></li>
-		<li><a href="#">Web Programming</a></li>
-		<li><a href="#">Frontend Development</a></li>
-		<li><a href="#">JavaScript</a></li>
-		<li><a href="#">Mobile Development</a></li>
-		<li><a href="#">Backend Development</a></li>
+<nav class="navbar">
+	<ul class="navbar-list">
+		<li class="navbar-item"><a class="navbar-link" href="#!">UI/UX Design</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="#!">Web Programming</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="#!">Frontend Development</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="#!">JavaScript</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="#!">Mobile Development</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="#!">Backend Development</a></li>
 	</ul>
 </nav>
-<section></section>
-<footer id="footer-container">	
-	<ul>
-		<li id="footer-left-image" class="footer-left-float"><a href="#"><img src="images/books.MD_footer_logo_icon.png"></a></li>
-		<li id="footer-left-label" class="footer-left-float"><a href="#"><span>Books</span>.Modern Developer</a></li>		
-		<li id="footer-copyright-label"><span>c</span> 2016 Modern Developer Inc.</li>
-		<li id="footer-email-link"><a href="#">books@moderndeveloper.com</a></li>
-	</ul>
+<div class="site-content">
+	<section class="site-content-section">
+		<div class="content-body">
+			<div class="content-body-item content-width-70">
+				<header class="content-heading">
+					<h1 class="content-title">Eloquent JavaScript:</h1>
+					<h1 class="content-title">A Modern Introduction to Programming</h1>
+				</header>
+				<nav class="content-nav">
+					<ul class="content-navlist">
+						<li class="content-navitem adjust-padding-right-2px">by <a class="book-author" href="#!">Marijin Haverbeke</a></li>
+						<li class="content-navitem"><a class="follow-author-button" href="#!">Follow</a></li>
+						<li class="content-navitem book-info">Published on 2015</li>
+						<li class="content-navitem book-info">2nd edition</li>
+					</ul>
+				</nav>
+				<section class="content-body--detail">
+					<article class="content-article content-width-60">
+						<p class="content-desc">JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games.  Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+						<p class="content-desc">Eloquent JavaScript, 2nd Edition dives deep into the Ja-vaScript language to show you how to write beautiful, effective code.</p>
+						<a class="read-more" href="#!">Read more</a>						
+					</article>
+					<article class="content-article content-width-40">
+						<div class="more-about-book book-review-box">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 25" style="/*border: 1px solid orange*/">
+							  <defs>
+							    <linearGradient id="feedback-bar-1" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#e2ad1d;stop-opacity:1" />
+							      <stop offset="72%" style="stop-color:#e2ad1d;stop-opacity:1" />
+							      <stop offset="72%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>
+							    <linearGradient id="feedback-bar-2" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#44bb58;stop-opacity:1" />
+							      <stop offset="67.5%" style="stop-color:#44bb58;stop-opacity:1" />
+							      <stop offset="67.5%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>	
+							    <linearGradient id="feedback-bar-3" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#84bfe1;stop-opacity:1" />
+							      <stop offset="85.5%" style="stop-color:#84bfe1;stop-opacity:1" />
+							      <stop offset="85.5%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>							    						    
+							  </defs>
+							  <text font-size="2px" dx="4" dy="5" fill="#e2ad1d">Easy to follow</text>
+							  <rect x="17.25" y="3" rx="0.25" ry="0.25" width="6%" height="8%" fill="#e2ad1d" opacity=".75"></rect>
+                <polygon points="17.25 5.5, 17.25 4.5, 18 4.5" fill="#e2ad1d" opacity=".75"/></polygon>
+                <text font-size="1.5px" dx="17.75" dy="4.5">29</text>						  
+							  <text font-size="2px" dx="36" dy="5" fill="#e2ad1d">80%</text>							  
+							  <text font-size="2px" dx="4" dy="12" fill="#44bb58">Comprehensive</text>
+							  <rect x="18.75" y="10" rx="0.25" ry="0.25" width="6%" height="8%" fill="#44bb58" opacity=".75"></rect>
+                <polygon points="18.75 12.5, 18.75 11.5, 19.5 11.5" fill="#44bb58" opacity=".75"/></polygon>
+                <text font-size="1.5px" dx="19.5" dy="11.5">6</text>
+							  <text font-size="2px" dx="36" dy="12" fill="#44bb58">75%</text>
+							  <text font-size="2px" dx="4" dy="19" fill="#84bfe1">Enough Examples</text>
+							  <rect x="20.75" y="17" rx="0.25" ry="0.25" width="6%" height="8%" fill="#84bfe1" opacity=".75"></rect>
+                <polygon points="20.75 19.5, 20.75 18.5, 21.5 18.5" fill="#84bfe1" opacity=".75" /></polygon>
+                <text font-size="1.5px" dx="21" dy="18.5">18</text>							  
+							  <text font-size="2px" dx="36" dy="19" fill="#84bfe1">95%</text>							  
+								<rect x="3" y="6" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-1)"></rect>
+						  	<rect x="3" y="13" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-2)"></rect>
+						  	<rect x="3" y="20" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-3)"></rect>
+							</svg>
+						</div>
+						<div class="more-about-book book-svc-box">
+							<a class="book-svc-item">Rate the Book</a>
+							<a class="book-svc-item">Table of Contents</a>
+							<a class="book-svc-item">Search Inside</a>						
+						</div>
+					</article>
+				</section>
+			</div>
+			<div class="content-body-item content-width-30">
+				<img class="content-media-img" width="300" height="420" src="./images/eloquent-javascript-cover.png">
+			</div>
+		</div>			
+		<footer class="content-footer">
+			<div class="content-footer-item">
+				<div class="vendor-price-list">
+					<div class="price-list-item">
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img"  width="250" height="50" src="./images/gumroad-button-1.jpg">	
+						</button>
+						<div class=" list-item-detail book-price gumroad-tag-1">
+							<p class="book-price-tag">$28.40</p>
+						</div>
+					</div>
+					<div class="price-list-item">					
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img" width="250" height="50" src="./images/amazon-button-1.jpg">	
+						</button>				
+						<div class="list-item-detail book-price amazon-tag-1">
+							<p class="book-price-tag">$29.65</p>
+						</div>
+					</div>
+					<div class="price-list-item">					
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img" width="250" height="50" src="./images/publisher-manning-button-1.jpg">	
+						</button>				
+						<div class="list-item-detail book-price publisher-manning-tag-1">
+							<p class="book-price-tag">$28.70</p>
+						</div>
+					</div>				
+				</div>
+			</div>
+			<div class="content-footer-item bookmark-icon">
+				<a class="bookmark-icon-link" href="#1">
+					<img class="bookmark-icon-img" width="40" height="40" src="./images/bookmark-it-icon.jpg">Bookmark it
+				</a>
+			</div>
+		</footer>			
+	</section>
+	<section class="site-content-section">
+		<div class="content-body">
+			<div class="content-body-item content-width-70">
+				<header class="content-heading">
+					<h1 class="content-title">JavaScript and JQuery: Interactive Front-End</h1>
+					<h1 class="content-title">Web Development</h1>
+				</header>
+				<nav class="content-nav">
+					<ul class="content-navlist">
+						<li class="content-navitem adjust-padding-right-2px">by <a class="book-author" href="#!">Marijin Haverbeke</a></li>
+						<li class="content-navitem"><a class="follow-author-button" href="#!">Follow</a></li>
+						<li class="content-navitem book-info">Published on 2016</li>
+						<li class="content-navitem book-info">1st edition</li>
+					</ul>
+				</nav>
+				<section class="content-body--detail">
+					<article class="content-article content-width-60">
+						<p class="content-desc">In JavaScript & jQuery renowned author Jon Duckett dis-cards the traditional programming book template and ap-proaches writing code in a more relevant, less intimidating way.</p>
+						<p class="content-desc">Full-color and packed with instructional graphics and photos, his books have gained a loyal following by illus-trating programming in a way both instructive for newcom-ers and invaluable for seasoned coders.</p>
+						<a class="read-more" href="#!">Read more</a>					
+					</article>
+					<article class="content-article content-width-40">
+						<div class="more-about-book book-review-box">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 25" style="/*border: 1px solid orange*/">
+							  <defs>
+							    <linearGradient id="feedback-bar-1" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#e2ad1d;stop-opacity:1" />
+							      <stop offset="72%" style="stop-color:#e2ad1d;stop-opacity:1" />
+							      <stop offset="72%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>
+							    <linearGradient id="feedback-bar-2" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#44bb58;stop-opacity:1" />
+							      <stop offset="67.5%" style="stop-color:#44bb58;stop-opacity:1" />
+							      <stop offset="67.5%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>	
+							    <linearGradient id="feedback-bar-3" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#84bfe1;stop-opacity:1" />
+							      <stop offset="85.5%" style="stop-color:#84bfe1;stop-opacity:1" />
+							      <stop offset="85.5%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>							    						    
+							  </defs>
+							  <text font-size="2px" dx="4" dy="5" fill="#e2ad1d">Easy to follow</text>
+					<!--	<rect x="17.25" y="3" rx="0.25" ry="0.25" width="6%" height="8%" fill="#e2ad1d" opacity=".75"></rect>
+                <polygon points="17.25 5.5, 17.25 4.5, 18 4.5" fill="#e2ad1d" opacity=".75"/></polygon>
+                <text font-size="1.5px" dx="17.75" dy="4.5">29</text>	-->					  
+							  <text font-size="2px" dx="36" dy="5" fill="#e2ad1d">80%</text>							  
+							  <text font-size="2px" dx="4" dy="12" fill="#44bb58">Comprehensive</text>
+					<!--	<rect x="18.75" y="10" rx="0.25" ry="0.25" width="6%" height="8%" fill="#44bb58" opacity=".75"></rect>
+                <polygon points="18.75 12.5, 18.75 11.5, 19.5 11.5" fill="#44bb58" opacity=".75"/></polygon>
+                <text font-size="1.5px" dx="19.5" dy="11.5">6</text>
+							  <text font-size="2px" dx="36" dy="12" fill="#44bb58">75%</text> -->
+							  <text font-size="2px" dx="4" dy="19" fill="#84bfe1">Enough Examples</text>
+					<!--  <rect x="20.75" y="17" rx="0.25" ry="0.25" width="6%" height="8%" fill="#84bfe1" opacity=".75"></rect>
+                <polygon points="20.75 19.5, 20.75 18.5, 21.5 18.5" fill="#84bfe1" opacity=".75" /></polygon>
+                <text font-size="1.5px" dx="21" dy="18.5">18</text>	-->						  
+							  <text font-size="2px" dx="36" dy="19" fill="#84bfe1">95%</text>							  
+								<rect x="3" y="6" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-1)"></rect>
+						  	<rect x="3" y="13" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-2)"></rect>
+						  	<rect x="3" y="20" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-3)"></rect>
+							</svg>
+						</div>
+						<div class="more-about-book book-svc-box">
+							<a class="book-svc-item">Rate the Book</a>
+							<a class="book-svc-item">Table of Contents</a>
+							<a class="book-svc-item">Search Inside</a>						
+						</div>
+					</article>
+				</section>
+			</div>
+			<div class="content-body-item content-width-30">
+				<img class="content-media-img" width="300" height="420" src="./images/javascript-and-jquery-cover.png">
+			</div>
+		</div>			
+		<footer class="content-footer">
+			<div class="content-footer-item">
+				<div class="vendor-price-list">
+					<div class="price-list-item">
+						<button class="list-item-detail vendor-download-button">Download the Book</button>
+					<!--	<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img"  width="250" height="50" src="./images/gumroad-button-1.jpg">
+						</button> 
+						<div class=" list-item-detail book-price gumroad-tag-1">
+							<p class="book-price-tag">$28.40</p>
+						</div> -->
+					</div>
+			<!--		<div class="price-list-item">					
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img" width="250" height="50" src="./images/amazon-button-1.jpg">	
+						</button>				
+						<div class="list-item-detail book-price amazon-tag-1">
+							<p class="book-price-tag">$29.65</p>
+						</div>
+					</div>
+					<div class="price-list-item">					
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img" width="250" height="50" src="./images/publisher-manning-button-1.jpg">	
+						</button>				
+						<div class="list-item-detail book-price publisher-manning-tag-1">
+							<p class="book-price-tag">$28.70</p>
+						</div>
+					</div>	-->			
+				</div>
+			</div>
+			<div class="content-footer-item bookmark-icon">
+		<!--		<a class="bookmark-icon-link" href="#1">
+					<img class="bookmark-icon-img" width="40" height="40" src="./images/bookmark-it-icon.jpg">Bookmark it
+				</a> -->
+			</div>
+		</footer>			
+	</section>
+	<section class="site-content-section">
+		<div class="content-body">
+			<div class="content-body-item content-width-70">
+				<header class="content-heading">
+					<h1 class="content-title">Learning PHP, MySQL & JavaScript: With jQuery,</h1>
+					<h1 class="content-title">CSS & HTML5</h1>
+				</header>
+				<nav class="content-nav">
+					<ul class="content-navlist">
+						<li class="content-navitem adjust-padding-right-2px">by <a class="book-author" href="#!">Marijin Haverbeke</a></li>
+						<li class="content-navitem"><a class="follow-author-button" href="#!">Follow</a></li>
+						<li class="content-navitem book-info">Published on 2016</li>
+						<li class="content-navitem book-info">4th edition</li>
+					</ul>
+				</nav>
+				<section class="content-body--detail">
+					<article class="content-article content-width-60">
+						<p class="content-desc">Build interactive, data-driven websites with the potent combination of open-source technologies and web stand-ards, even if you have only basic HTML knowledge.  With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS and HTML5.</p>
+						<p class="content-desc">By discussing JavaScript and jQuery in a single text, Duck-ett ensures you will quickly be writing your own...</p>
+						<a class="read-more" href="#!">Read more</a>					
+					</article>
+					<article class="content-article content-width-40">
+						<div class="more-about-book book-review-box">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 25" style="/*border: 1px solid orange*/">
+							  <defs>
+							    <linearGradient id="feedback-bar-1" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#e2ad1d;stop-opacity:1" />
+							      <stop offset="72%" style="stop-color:#e2ad1d;stop-opacity:1" />
+							      <stop offset="72%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>
+							    <linearGradient id="feedback-bar-2" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#44bb58;stop-opacity:1" />
+							      <stop offset="67.5%" style="stop-color:#44bb58;stop-opacity:1" />
+							      <stop offset="67.5%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>	
+							    <linearGradient id="feedback-bar-3" x1="0%" y1="0%" x2="100%" y2="0%">
+							      <stop offset="0%" style="stop-color:#84bfe1;stop-opacity:1" />
+							      <stop offset="85.5%" style="stop-color:#84bfe1;stop-opacity:1" />
+							      <stop offset="85.5%" style="stop-color:#babac5;stop-opacity:1" />
+							      <stop offset="90%" style="stop-color:#babac5;stop-opacity:1" />
+							    </linearGradient>							    						    
+							  </defs>
+							  <text font-size="2px" dx="4" dy="5" fill="#e2ad1d">Easy to follow</text>
+						<!--	  <rect x="17.25" y="3" rx="0.25" ry="0.25" width="6%" height="8%" fill="#e2ad1d" opacity=".75"></rect>
+                <polygon points="17.25 5.5, 17.25 4.5, 18 4.5" fill="#e2ad1d" opacity=".75"/></polygon>
+                <text font-size="1.5px" dx="17.75" dy="4.5">29</text>		-->				  
+							  <text font-size="2px" dx="36" dy="5" fill="#e2ad1d">80%</text>							  
+							  <text font-size="2px" dx="4" dy="12" fill="#44bb58">Comprehensive</text>
+						<!--	  <rect x="18.75" y="10" rx="0.25" ry="0.25" width="6%" height="8%" fill="#44bb58" opacity=".75"></rect>
+                <polygon points="18.75 12.5, 18.75 11.5, 19.5 11.5" fill="#44bb58" opacity=".75"/></polygon>
+                <text font-size="1.5px" dx="19.5" dy="11.5">6</text> -->
+							  <text font-size="2px" dx="36" dy="12" fill="#44bb58">75%</text>
+							  <text font-size="2px" dx="4" dy="19" fill="#84bfe1">Enough Examples</text>
+						<!--	  <rect x="20.75" y="17" rx="0.25" ry="0.25" width="6%" height="8%" fill="#84bfe1" opacity=".75"></rect>
+                <polygon points="20.75 19.5, 20.75 18.5, 21.5 18.5" fill="#84bfe1" opacity=".75" /></polygon>
+                <text font-size="1.5px" dx="21" dy="18.5">18</text>			-->				  
+							  <text font-size="2px" dx="36" dy="19" fill="#84bfe1">95%</text>							  
+								<rect x="3" y="6" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-1)"></rect>
+						  	<rect x="3" y="13" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-2)"></rect>
+						  	<rect x="3" y="20" rx="0.25" ry="0.25" width="90%" height="2%" fill="url(#feedback-bar-3)"></rect>
+							</svg>
+						</div>
+						<div class="more-about-book book-svc-box">
+							<a class="book-svc-item">Rate the Book</a>
+							<a class="book-svc-item">Table of Contents</a>
+							<a class="book-svc-item">Search Inside</a>						
+						</div>
+					</article>
+				</section>
+			</div>
+			<div class="content-body-item content-width-30">
+				<img class="content-media-img" width="300" height="420" src="./images/learning-php-mysql-javascript-cover.jpg">
+			</div>
+		</div>			
+		<footer class="content-footer">
+			<div class="content-footer-item">
+				<div class="vendor-price-list">
+					<div class="price-list-item">
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img"  width="250" height="50" src="./images/gumroad-button-1.jpg">	
+						</button>
+						<div class=" list-item-detail book-price gumroad-tag-1">
+							<p class="book-price-tag">$26.30</p>
+						</div>
+					</div>
+					<div class="price-list-item">					
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img" width="250" height="50" src="./images/amazon-button-1.jpg">	
+						</button>				
+						<div class="list-item-detail book-price amazon-tag-1">
+							<p class="book-price-tag">$24.80</p>
+						</div>
+					</div>
+					<div class="price-list-item">					
+						<button class="list-item-detail vendor-price-button">
+							<img class="price-list-item-img" width="250" height="50" src="./images/publisher-manning-button-1.jpg">	
+						</button>				
+						<div class="list-item-detail book-price publisher-manning-tag-1">
+							<p class="book-price-tag">$25.20</p>
+						</div>
+					</div>				
+				</div>
+			</div>
+			<div class="content-footer-item bookmark-icon">
+				<a class="bookmark-icon-link" href="#1">
+					<img class="bookmark-icon-img" width="40" height="40" src="./images/bookmark-it-icon.jpg">Bookmark it
+				</a>
+			</div>
+		</footer>			
+	</section>
+	<div class="load-more">
+		<a class="load-more-books-link" href="#!">Load More Books</a>
+	</div>
+</div>
+<footer class="site-footer">
+	<div class="site-footer-wrapper">
+		<div class="site-footer-item">
+			<div class="site-footer-logo-item">
+				<a class="site-footer-logo-media" href="#!">
+					<img class="site-footer-logo-img" width="40" height="40" src="./images/books.MD_footer_logo_icon.png">
+				</a>
+			</div>
+			<div class="site-footer-logo-item">
+				<h6 class="site-footer-logo-title"><a class="site-footer-title-link" href="#!"><span>Books.</span>Modern Developer</a></h6>
+			</div>		
+		</div>	
+		<div class="site-footer-item  keep-right">
+			<p class="site-footer-copyright">© 2016 modern Developer Inc.</p>
+			<a class="site-footer-email" href="#!">books@moderndeveloper.com</a>
+		</div>
+	</div>
 </footer>
 </body>
 </html>  
