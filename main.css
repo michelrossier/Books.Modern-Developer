@@ -827,3 +827,10 @@ input[type=search]::-webkit-input-placeholder {
 	text-transform: uppercase;
 	color: #909089;
 }
+
+.close-modal {
+	position: absolute;
+	font-size: 200%;
+	left: 1085px;
+	top: 10px;
+}
